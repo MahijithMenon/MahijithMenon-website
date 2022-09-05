@@ -1,8 +1,14 @@
 :root{
-    --primary-color:#99f6e4;
+    --primary-color:#c4b5fd;
+    --grey:#94a3b8;
+    --background-color-grey:#e5e5e5;
 }
 body{
     font-family: 'Fira Sans', sans-serif;
+ }
+
+ hr{
+    margin: 2 rem;
  }
 
  .container{
@@ -16,16 +22,102 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
  }
- .primary-link{
+ .link-primary{
     background-color:var(--primary-color);
     max-width: 110px;
     border-radius: 0.5rem;
     border: 2px solid black;
     color:black;
  }
- .secondary-link{
-    background-color:var(--primary-color);
+ .link-secondary{
+    background-color:white;
     border-radius: 0.5rem;
     color:black;
     border: 2px solid black;
  }
+ .non-bullet{
+    list-style:none;
+ } 
+
+ .list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+ }
+ .navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: black;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+.hero{
+    padding:2rem;
+}
+.hero .hero-img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--grey);
+    text-align: center;
+}
+.unique{
+    color: var(--primary-color);
+}
+.section h2{
+    text-align: center;
+}
+.ow{
+    background-color: var(--background-color-grey);
+    padding: 2px;
+}
+
+section{
+    margin: 4px auto;
+}
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
+}
