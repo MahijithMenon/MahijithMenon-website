@@ -1,0 +1,31 @@
+:root{
+    --primary-color:#99f6e4;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+ }
+
+ .container{
+    padding: 0rem 1rem;
+ }
+ .container-center{
+    max-width: 600px;
+    margin:auto; 
+ }
+ .link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+ }
+ .primary-link{
+    background-color:var(--primary-color);
+    max-width: 110px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    color:black;
+ }
+ .secondary-link{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color:black;
+    border: 2px solid black;
+ }
