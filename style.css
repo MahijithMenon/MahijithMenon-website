@@ -1,7 +1,8 @@
 :root{
-    --primary-color:#c4b5fd;
+    /* --primary-color:#c4b5fd; */
+    --primary-color:#FF6600;
     --grey:#94a3b8;
-    --background-color-grey:#e5e5e5;
+    --background-color-grey:#a49696;
 }
 .heading-inverted{
     color: var(--primary-color);
